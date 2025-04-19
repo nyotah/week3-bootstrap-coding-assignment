@@ -3,10 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/boostrap/dist/css/bootstrap.css"> 
+    <title>Houseplants</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> 
 </head>
+<!-- create a website using html and boostrap -->
+<!-- the website must include the following: 
+ - at least 2 pages; 
+ - a bootstrap navbar, 
+ - table and form; 
+ - bootstrap grid used throughout to format elements; 
+ - elements should stack vertically when the window is small.-->
+ 
+
 <body>
+
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Houseplants</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     More Info
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Placeholder</a></li>
+                      <li><a class="dropdown-item" href="#">More Placeholder</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid p-5 bg-dark text-white">
+      <div class="row m-0">
+          <div class="col-lg mb-4 bg-dark">
+           <img src="https://www.englishgardens.com/wp-content/uploads/Expert-Tip-Banner-48.png" class="img-fluid rounded w-100" alt="banner image of a pothos houseplant">
+          </div>
+          <div class="col-12 text-center">
+            <h1 class="fw-bold fs-3">Ready to find the right houseplant for you?</h1>
+          </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-sm">
+            <p class="text-center fs-6">Let's go over some common types of houseplants, each requiring various levels of care.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4 p-5 border border-dark rounded border-2">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="https://www.thesill.com/cdn/shop/files/the-sill_Medium-Monstera-Deliciosa_Medium_Isabella_Stone_Variant_b68d0a34-b068-4105-a15c-7d1b22ba6b29.jpg?v=1743190832&width=1946" class="card-img-top" alt="image of monstera plant in white pot">
+            <div class="card-body">
+              <h5 class="card-title text-center">Monsterra</h5>
+              <p class="card-text text-center">Monstera plants, known for their striking split leaves, are low-maintenance and perfect for beginners. They thrive in bright, indirect light and only need watering when the top inch of soil feels dry.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="https://www.thesill.com/cdn/shop/files/the-sill_Fiddle-Leaf-Fig-Tree_Large_Pallas_Cream_Variant_8735f6bb-bb33-4d96-9858-13dc076566d8.jpg?v=1744404801&width=1946" class="card-img-top" alt="Image of Fiddle Leaf Fig plant in white pot">
+            <div class="card-body">
+              <h5 class="card-title text-center">Fiddle Leaf Fig</h5>
+              <p class="card-text text-center">Fiddle leaf figs are popular for their bold, violin-shaped leaves and love bright, filtered light. While stunning, they can be a bit finicky—be sure to keep them in a stable environment and water only when the top inch of soil is dry.</p>
+            </div>
+          </div>
+        </div>
     
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="https://www.thesill.com/cdn/shop/products/the-sill_marble-queen-pothos_variant_medium_grant_cream.jpg?v=1740414422&width=1445" class="card-img-top" alt="Image of Pothos plant in white pot">
+            <div class="card-body">
+              <h5 class="card-title text-center">Pothos</h5>
+              <p class="card-text text-center">Pothos are one of the easiest houseplants to care for, making them ideal for beginners. They tolerate low light and irregular watering, and their trailing vines add a lush, lively touch to any space.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col-lg p-5 mb-5 text-center">
+          <a href="pricing.html">
+            <button type="button" class="btn btn-light">Click Here for Plant Pricing</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 </html>

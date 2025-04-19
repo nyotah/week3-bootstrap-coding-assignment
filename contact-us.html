@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houseplants</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css"> 
+</head>
+<!-- create a website using html and boostrap -->
+<!-- the website must include the following: 
+ - at least 2 pages; 
+ - a bootstrap navbar, 
+ - table and form; 
+ - bootstrap grid used throughout to format elements; 
+ - elements should stack vertically when the window is small.-->
+ 
+
+<body>
+
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Houseplants</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     More Info
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Placeholder</a></li>
+                      <li><a class="dropdown-item" href="#">More Placeholder</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+
+    </div>
+
+    <div class="container-fluid p-0 m-3 border border-dark border-2 border rounded">
+        <div class="row m-2">
+            <div class="col-lg p-2 text-center bg-dark text-white rounded">
+              <h4>Connect with Us</h4>
+            </div>
+        </div>
+        <div class="row p-3">
+          <div class="col-lg mb-4">
+             <h5>You can find us at...</h5>
+          </div>
+          <div class="col-lg"></div>
+            <p>Email: houseplants@gmail.com</p>
+            <p>Facebook: Houseplants For You</p>
+            <p>IG: @houseplants</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fliud">
+        <div class="row">
+            <div class="col-sm text-center">
+                <h4>OR</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 m-3 border border-dark border-2 border rounded">
+        <div class="row m-2">
+            <div class="col-lg p-2 text-center bg-dark text-white rounded">
+              <h4>Send Us a Message!</h4>
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-lg">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-lg">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-lg">
+                <input type="text" class="form-control" placeholder="Email">
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="form-floating">
+             <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg text-center mt-3 mb-5">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
